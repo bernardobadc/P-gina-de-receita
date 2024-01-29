@@ -1,0 +1,152 @@
+@font-face {
+    font-family: Lato;
+    src: url(./fonts/Lato-Black.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(./fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(./fonts/Lato-Regular.ttf);
+}
+
+body{
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-bar{
+    background-color: #ff6b28;
+    text-align: center;
+    padding: 8px;
+}
+
+.logo{
+    width: 180px;
+}
+
+.hero-cake{
+    height: 400px;
+    background-image: url(./images/hero_bolo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    max-width: 888px;
+    margin: 70px auto;
+}
+
+.content{
+    max-width: 670px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.card{
+    padding: 70px 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.card:hover {
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+}
+
+.ingredients button{
+    cursor: url(./images/cursor_ingredientes.png), auto;
+}
+
+.ingredients:hover{
+    cursor: pointer;
+}
+
+.prepare{
+    cursor: url(./images/cursor_preparo.png), auto;
+}
+
+.instructions{
+    cursor: url(./images/cursor_intrucoes.png), auto;
+}
+
+h1{
+    color: #ff6b28;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+h2{
+    color: #ff6b28;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+li{
+    /* margin-left: 40px; */
+    padding: 5px;
+}
+
+ul, ol{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+p, li{
+    line-height: 24px;
+}
+
+button{
+    color: white;
+    background-color: #ff6b28;
+    padding: 16px;
+    border-style: none;
+    border-radius: 20px;
+    cursor: pointer;    
+}
+
+footer{
+    background-color: #ff6b28;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 15px;
+    text-align: center;
+}
+
+.footer-text{
+    max-width: 500px;
+    margin: auto;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.email_white{
+    color: white;
+}
+
+@media screen and (max-width:500px) {
+
+    .content{
+        width: 80vw;
+    }    
+
+    .card{
+        margin-top: 5px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:940px) {
+
+    h1{
+        margin-left: 30px;
+    }
+    
+}
